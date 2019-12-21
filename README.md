@@ -6,10 +6,10 @@ Machine Learning Notebook
 ```sh
 conda create --name ml_opencv
 ```
-which creates environemnt and generates path to it like: `/anaconda3/envs/ml_opencv`.
+which creates environment and generates path to it like: `/anaconda3/envs/ml_opencv`.
 
 
-### Installing tools in the environemnt
+### Installing tools in the environment
 
  ```sh
 source activate ml_opencv
@@ -24,10 +24,10 @@ pip install dlib
 python3 -c "import numpy, scipy, matplotlib, sklearn, jupyter, pandas, cv2, dlib"
 ```
 
-### How to activate environemnt
+### How to activate environment
 
 ```sh
-# List out the environemnts
+# List out the environments
 conda env list
 
 # activate the required environment
